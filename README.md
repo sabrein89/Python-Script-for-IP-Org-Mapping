@@ -1,2 +1,8 @@
-# Python-Script-for-IP-Org-Mapping
-Script to map IP addresses to organizations
+# IP to Organization Lookup
+
+This script reads IP addresses from an Excel file (`ip.xlsx`), queries ipinfo.io, and saves the organization names.
+
+## How to Use
+
+pip install pandas openpyxl requests
+python3 ip2org.py
